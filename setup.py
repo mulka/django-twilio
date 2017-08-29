@@ -19,7 +19,7 @@ setup(
     # Package dependencies:
     install_requires=[
         'twilio>=6.3.0',
-        'Django>=1.4',
+        'Django>=1.8',
         'django-phonenumber-field>=0.6'
     ],
 
@@ -42,8 +42,9 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Internet :: WWW/HTTP',
