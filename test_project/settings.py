@@ -113,14 +113,11 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.admindocs',
 
-    # Use south for database migrations:
-    'south',
-
     # Use django-nose for running our tests:
     'django_nose',
 
     # django-twilio, of course!
-    'django_twilio',
+    'django_twilio2',
 )
 
 # Nose test settings.
@@ -131,7 +128,7 @@ else:
     # See: https://code.djangoproject.com/ticket/19833
     TEST_RUNNER = b'django_nose.NoseTestSuiteRunner'
 
-NOSE_ARGS = ['--with-coverage', '--cover-package=django_twilio']
+NOSE_ARGS = ['--with-coverage', '--cover-package=django_twilio2']
 
 # Until South is once again Python 3 compatible,
 # skip testing migrations in Python 3
