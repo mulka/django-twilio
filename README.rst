@@ -1,33 +1,22 @@
 =============
-Django-Twilio
+Django-Twilio2
 =============
-
 
 Integrate Twilio into your Django apps with ease.
 
-
-.. image:: https://badge.fury.io/py/django-twilio.png
-    :target: http://badge.fury.io/py/django-twilio
-
-.. image:: https://travis-ci.org/rdegges/django-twilio.png?branch=master
-        :target: https://travis-ci.org/rdegges/django-twilio
-
-.. image:: https://pypip.in/d/django-twilio/badge.png
-        :target: https://crate.io/packages/django-twilio
+This is a fork of the original django-twilio. The original one was not recieving updates on pypi.
+The original can be found here:
+https://github.com/rdegges/django-twilio
 
 Meta
 ----
 
-* Author: Randall Degges
-* Email:  rdegges@gmail.com
-* Maintainer: Paul Hallett
-* Email: paul@twilio.com
-* Status: active development, stable, maintained
-
+* Maintainer: Kyle Mulka
+* Email: repalviglator@yahoo.com
 
 Twilio makes it easy to send & receive SMS messages, and create & manage voice calls through software.
 
-Django-twilio makes it easy to use Twilio in your Django projects.
+Django-twilio2 makes it easy to use Twilio in your Django projects.
 
 Documentation
 -------------

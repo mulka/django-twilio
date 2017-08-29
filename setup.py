@@ -9,7 +9,7 @@ setup(
 
     # Basic package information:
     name='django-twilio2',
-    version='0.8.0',
+    version='0.9.0',
     packages=find_packages(),
 
     # Packaging options:
@@ -24,8 +24,8 @@ setup(
     ],
 
     # Metadata for PyPI:
-    author='Randall Degges',
-    author_email='rdegges@gmail.com',
+    author='Kyle Mulka',
+    author_email='repalviglator@yahoo.com',
     license='UNLICENSE',
     url='http://twilio.com/',
     keywords='twilio telephony call phone voip sms',
@@ -40,7 +40,6 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
