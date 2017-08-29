@@ -8,7 +8,7 @@ from setuptools import find_packages, setup
 setup(
 
     # Basic package information:
-    name='django-twilio',
+    name='django-twilio2',
     version='0.8.0',
     packages=find_packages(),
 
