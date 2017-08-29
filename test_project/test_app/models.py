@@ -8,7 +8,7 @@ from django.contrib.auth.models import User
 
 from django_dynamic_fixture import G
 
-from django_twilio.models import Caller, Credential
+from django_twilio2.models import Caller, Credential
 
 
 class CallerTestCase(TestCase):

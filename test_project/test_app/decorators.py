@@ -10,7 +10,7 @@ from twilio.twiml.voice_response import VoiceResponse
 
 from django_dynamic_fixture import G
 
-from django_twilio.models import Caller
+from django_twilio2.models import Caller
 
 from .views import (response_view, str_view, bytes_view, verb_view,
                     BytesView, StrView, VerbView, ResponseView)

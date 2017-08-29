@@ -8,9 +8,9 @@ from django.conf import settings
 from twilio.rest import Client
 from django_dynamic_fixture import G
 
-from django_twilio.client import twilio_client
-from django_twilio.models import Credential
-from django_twilio.utils import discover_twilio_credentials
+from django_twilio2.client import twilio_client
+from django_twilio2.models import Credential
+from django_twilio2.utils import discover_twilio_credentials
 
 
 class TwilioClientTestCase(TestCase):

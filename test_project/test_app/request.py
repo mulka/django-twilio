@@ -4,8 +4,8 @@ from django.conf import settings
 
 from .utils import TwilioRequestFactory
 
-from django_twilio.request import decompose, TwilioRequest
-from django_twilio.exceptions import NotDjangoRequestException
+from django_twilio2.request import decompose, TwilioRequest
+from django_twilio2.exceptions import NotDjangoRequestException
 
 
 class TestRequestBase(TestCase):

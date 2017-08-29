@@ -6,11 +6,11 @@ from django.http import HttpResponse
 from django.test import TestCase
 from twilio.twiml.voice_response import VoiceResponse
 
-from django_twilio.decorators import twilio_view
+from django_twilio2.decorators import twilio_view
 from django.views.generic import View
 from django.utils.decorators import method_decorator
 
-from django_twilio.views import (
+from django_twilio2.views import (
     conference, dial, gather, play, record, say, sms, message
     )
 
